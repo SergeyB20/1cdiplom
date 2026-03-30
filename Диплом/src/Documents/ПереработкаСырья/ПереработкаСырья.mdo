@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de06c244-3456-47c5-b794-b45a502ba002">
+  <producedTypes>
+    <objectType typeId="c9956abf-78f7-4f33-8584-5072100b278e" valueTypeId="79e8e6b2-5f7b-46e8-b6a7-f2b9de6443e6"/>
+    <refType typeId="ac5977bc-4505-471b-94a2-139a75418796" valueTypeId="6ed0fea0-18fc-41df-ae36-305a6f60820c"/>
+    <selectionType typeId="4f559547-d290-4555-bcf7-af7c887d2feb" valueTypeId="63bf3c8c-7c00-4a9f-b699-a4b83850067e"/>
+    <listType typeId="810ad85c-f220-41f9-b6ad-da0a2beee88c" valueTypeId="b55b9c7f-ec65-4a85-b42a-e2c1b1578675"/>
+    <managerType typeId="12fcc788-7f78-4b98-9e73-31ff19b9ab65" valueTypeId="dc8aab73-65d9-4742-bdeb-746047167e9f"/>
+  </producedTypes>
+  <name>ПереработкаСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переработка сырья</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПереработкаСырья.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПереработкаСырья.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиМатериаловИТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ПереработкаЛесаВЩиты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3160ab8f-faaa-48ed-96b6-e3b0830b6f31">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Помещения.Производство</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cffa0313-9428-450b-95db-636350282d27">
+    <name>ОтветственноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf45647a-b281-49b9-83f3-ff7db555689b">
+    <name>Бригада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бригада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Бригады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2229f1fb-1cbb-4da1-9202-ef3fd3a4ffa6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a7d1b5bd-1588-48e9-a3e4-6b7c1dd01e97">
+    <producedTypes>
+      <objectType typeId="ea2a8dd6-f426-4396-a0f5-1600cacfa65f" valueTypeId="4ca4e35b-8fcb-4d9a-825a-0cca6758f735"/>
+      <rowType typeId="53db853f-c414-43e0-b7ef-3d2b18d19c05" valueTypeId="d38f8996-f490-41d3-8007-f22214f84d91"/>
+    </producedTypes>
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <attributes uuid="c93f8792-af54-4358-be9a-b64e379224d9">
+      <name>Номенклатура_Леса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура леса</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РасходникиДляПроизводства_Номенклатура</types>
+        <types>CatalogRef.ЛесСырьё_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="061c25a3-19d6-4e6d-b75e-51af04a2a019">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="513aeea9-2946-4c3d-9b10-ab9abb1fc690">
+    <producedTypes>
+      <objectType typeId="504de80d-b2df-487d-958e-c31a553dd314" valueTypeId="0a2a79e2-7a66-4d7c-8b76-02f862c838ea"/>
+      <rowType typeId="03dcc01a-6f81-418c-8ad8-ea66faeeff01" valueTypeId="3d396433-22b1-4838-af4c-3ea72548a7f3"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8d1b8dad-dbf8-4721-a7b5-99f1831de2a3">
+      <name>Номенклатура_Щитов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура щитов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДеревянныеЩиты_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="048afd1d-5040-4ebf-b93f-03aa68780b0b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="053d4e89-8448-4ea3-a96c-cf2fc30b227c">
+    <name>ПечатьДокумент</name>
+  </templates>
+  <commands uuid="66bc22d9-a2b6-4fd6-a027-dbd09e27750a">
+    <name>ПечатьДокумент</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПереработкаСырья</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

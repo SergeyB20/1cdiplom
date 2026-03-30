@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331d00b7-ee90-49c0-a53a-f7c594867ff1">
+  <producedTypes>
+    <objectType typeId="e4188227-23a0-48bc-9006-e057df236b20" valueTypeId="0e7b25b9-ce62-4c74-8279-210489e22734"/>
+    <refType typeId="37943be4-738d-4b0d-8c16-cf84d7287938" valueTypeId="8182ba23-7a88-4366-adc4-d4887d6bd2d4"/>
+    <selectionType typeId="b39a8681-e080-4210-8675-433e628e42e0" valueTypeId="26b618d9-bdf2-46aa-beca-8e3ab217b4cf"/>
+    <listType typeId="1ace708f-6f69-45e4-a576-e73a24d62781" valueTypeId="55ea091c-1ec5-4979-a57a-9cdee9ba37f0"/>
+    <managerType typeId="aa800aed-6e6e-4e27-bb86-e536921fb5b2" valueTypeId="6f236654-ca17-45ac-a7ed-4c62507e500b"/>
+  </producedTypes>
+  <name>РасходникиДляПроизводства_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура расходников для производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасходникиДляПроизводства_Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасходникиДляПроизводства_Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура расходников для производства</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Номенклатура расходников для производства</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура расходников для производства</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Номенклатура расходников для производства</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РасходникиДляПроизводства_Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="365e7dcb-7113-400e-acaf-34f2924e2739">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="236ea4aa-adf9-485e-9277-d4291ce66be6">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2de00bae-d28d-4991-a4a2-52f15960bfd3">
+    <name>ИспользуютсяМетрыКВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используются м2</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59495325-1b9e-4b16-aeeb-80b1a392a5a1">
+    <name>МетрыКВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>м2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7f434ff3-7487-4a4d-94a7-484eda30fcb4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc43f901-14a0-4847-8e63-29e95db971e9">
+  <producedTypes>
+    <objectType typeId="fe570835-0a32-4888-9253-3ac5e7b1e8f2" valueTypeId="04d5c27f-88e6-4887-83d2-5dc08446f76a"/>
+    <refType typeId="d75a34ef-6ab2-4e03-91c3-fb24f47c5dae" valueTypeId="5dc38c7a-b37d-4044-8887-0110c751acf4"/>
+    <selectionType typeId="8f15d6ad-5a58-40d2-acf4-ab9156829891" valueTypeId="5e2ed9c2-b74b-4fbe-a5da-50d0bc1c4192"/>
+    <listType typeId="b44429d8-00be-491e-bba1-508b7883cfdb" valueTypeId="4f268538-c406-4eee-9b4e-3202c5c37720"/>
+    <managerType typeId="7adda5c9-4046-4034-b88d-28d27431b4ed" valueTypeId="b9ce3ff5-439e-4e88-b7aa-c90fb17ce1bb"/>
+  </producedTypes>
+  <name>Помещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помещения</value>
+  </synonym>
+  <comment>Помещения</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Помещения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Помещения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Помещения</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Помещения</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Помещения</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Помещения</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1e9ca0a7-ab89-4969-98bd-6085d86946a2">
+      <name>Производство</name>
+      <description>Производство</description>
+      <code xsi:type="core:StringValue">
+        <value>00002</value>
+      </code>
+    </items>
+    <items id="b26f2793-e717-4f83-ac98-79a13bef6dfc">
+      <name>СкладСырья</name>
+      <description>Склад сырья (лес)</description>
+      <code xsi:type="core:StringValue">
+        <value>00003</value>
+      </code>
+    </items>
+    <items id="8fc09cc5-8688-4206-be6f-9d5354fe77e1">
+      <name>СкладЩитов</name>
+      <description>Склад щитов</description>
+      <code xsi:type="core:StringValue">
+        <value>00001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Помещения.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="107b13cb-3512-44d4-97b6-3a86bdc0b2c2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bed411-9c46-4cbc-a937-ec075d56cc78">
+  <name>Торговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговля</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ТорговляЩитами</content>
+  <content>InformationRegister.ЦеныЩитов</content>
+  <content>AccumulationRegister.РегистрВзаиморасчетов</content>
+  <content>Document.ОплатаПОК</content>
+  <parentSubsystem>Subsystem.РеализацияТоваров</parentSubsystem>
+</mdclass:Subsystem>

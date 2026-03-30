@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aea3a366-dc67-430b-a565-be1466dd1d6e">
+  <producedTypes>
+    <objectType typeId="3abc84f8-23c2-4956-9b38-f65201733ce1" valueTypeId="013bb2f7-a1b4-4a13-9508-0ec75668a681"/>
+    <managerType typeId="9bb7ed6e-4a28-41c8-8302-d5d5ef2d9a9e" valueTypeId="53c017ab-cadf-4370-8f84-034d119f5032"/>
+  </producedTypes>
+  <name>ОтчетОстатковИОборотов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет остатков и оборотов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетОстатковИОборотов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a053ff8f-4219-4143-87bb-c91241933df0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="94cef280-6b67-43b2-867d-7cd37d6df0ae">
+    <name>ОстаткиПоСкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки по складу</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

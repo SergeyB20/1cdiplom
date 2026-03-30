@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea76c129-f4b7-44d5-9580-91e1c913dd47">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенный складской учет</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ff71c3c0-5086-48fd-b176-04b86b5c5fcd"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f0fac347-845f-432c-9aa4-e8029faccd3c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a32429db-d05a-4d34-b9a0-8620a767d0be"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cd7d1b73-c611-4d74-889d-1239e19f30b5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4fd3879b-6fd7-4d4c-abc5-95cc60063fae"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e04f177e-1d99-4f73-9e53-0b64a2cbe956"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bbed3daf-1ef6-448f-a0ee-d5c27ded874e"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Складской учет</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Программа для контроля за материалами на складе, учета расхода.</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="230f9e95-f4a6-45c7-a4ac-4b3fd3c8c9a5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.РеализацияТоваров</subsystems>
+  <commonPictures>CommonPicture.ДляСправочника</commonPictures>
+  <commonPictures>CommonPicture.ДляДокумента</commonPictures>
+  <commonPictures>CommonPicture.ДляОтчета</commonPictures>
+  <commonPictures>CommonPicture.ДляРеализ</commonPictures>
+  <roles>Role.Админ</roles>
+  <roles>Role.Кладовщик</roles>
+  <roles>Role.Бухгалтер</roles>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.РаботаСПроведением</commonModules>
+  <scheduledJobs>ScheduledJob.ПроведениеПоступленийОтПереработчика</scheduledJobs>
+  <functionalOptions>FunctionalOption.ПоСкладам</functionalOptions>
+  <constants>Constant.УчетПоСкладам</constants>
+  <catalogs>Catalog.ДеревянныеЩиты_Номенклатура</catalogs>
+  <catalogs>Catalog.РасходникиДляПроизводства_Номенклатура</catalogs>
+  <catalogs>Catalog.ЛесСырьё_Номенклатура</catalogs>
+  <catalogs>Catalog.Помещения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ДолжностиСотрудников</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Бригады</catalogs>
+  <catalogs>Catalog.Организация</catalogs>
+  <catalogs>Catalog.Гражданство</catalogs>
+  <documents>Document.ПоступлениеМатериалов</documents>
+  <documents>Document.ПеремещениеТоваровМатериалов</documents>
+  <documents>Document.ПереработкаСырья</documents>
+  <documents>Document.ПоступлениеТовараИзПереработки</documents>
+  <documents>Document.ТорговляЩитами</documents>
+  <documents>Document.ДоговорыСКонтрагентами</documents>
+  <documents>Document.ОплатаПОСТ</documents>
+  <documents>Document.ОплатаПОК</documents>
+  <sequences>Sequence.ПоследовательностьВзаиморасчетовСПоставщиками</sequences>
+  <documentJournals>DocumentJournal.ЖурналДокументов</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналДокументовРасчета</documentJournals>
+  <enums>Enum.ТолщинаЩита</enums>
+  <enums>Enum.Сорт</enums>
+  <enums>Enum.ТипДеревянногоЩита</enums>
+  <enums>Enum.ДлинаЩита</enums>
+  <enums>Enum.ШиринаЩита</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ЕдиницаИзмерения</enums>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.СтатусДляДоговоров</enums>
+  <enums>Enum.ТипДоговора</enums>
+  <reports>Report.ОтчетОстатковИОборотов</reports>
+  <reports>Report.ОтчетПоПоступившимМатериалам</reports>
+  <reports>Report.ОтчетПоПроизводству</reports>
+  <reports>Report.ОтчетПоПроизводствуЗаСмену</reports>
+  <reports>Report.ОтчетПоПеремещениямВПроизводство</reports>
+  <reports>Report.ОтчетПоПеремещениямГотовойПродукции</reports>
+  <reports>Report.ОтчетПоОтгрузкеГотовойПродукции</reports>
+  <informationRegisters>InformationRegister.ЦеныЩитов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериаловИТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПереработкаЛесаВЩиты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрВзаиморасчетов</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+</mdclass:Configuration>

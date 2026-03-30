@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56aae0fe-2a97-4f11-91bc-44d5bd706fb9">
+  <name>ТоварыИМатериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары и материалы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДеревянныеЩиты_Номенклатура</content>
+  <content>Catalog.РасходникиДляПроизводства_Номенклатура</content>
+  <content>Catalog.ЛесСырьё_Номенклатура</content>
+  <content>Catalog.Помещения</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb4076d7-eacc-4e9a-84e2-3427c00d2fbd">
+  <producedTypes>
+    <objectType typeId="341d4b07-a2f8-4272-8111-5f3c81dd8583" valueTypeId="397576f0-3d5d-4767-b9c2-36d02ae4e0cc"/>
+    <refType typeId="6191f5a3-cc0c-4391-a502-db7c252008f9" valueTypeId="c0c4811e-c6f7-4abc-82f2-ca2ad7c7c5ca"/>
+    <selectionType typeId="8dbda58b-8192-4a06-80b6-9e665e0bd8d9" valueTypeId="d5fe6658-4bdd-4b11-a234-bf666fe3295e"/>
+    <listType typeId="61dbe57d-fa44-46c2-8f97-4c6084504714" valueTypeId="f22b3054-5f4c-4bb3-9e5e-9f63606ab69b"/>
+    <managerType typeId="1eaf0231-fad8-4d39-b6c1-decdc9694460" valueTypeId="ca796c34-0a99-4f67-a1b9-98f48cb51500"/>
+  </producedTypes>
+  <name>ТорговляЩитами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговля щитами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ТорговляЩитами.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ТорговляЩитами.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РегистрВзаиморасчетов</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиМатериаловИТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4338d144-bee3-4bf1-b7d4-cd0f93a889a7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10346030-efc1-4e3c-8b4b-dbfa6b051e8f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab7b5560-44bb-461c-bafe-c319fb70b8d4">
+    <name>ДоговорПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДоговорыСКонтрагентами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c05c39d9-284e-4138-b398-ed7425fd8ce0">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Помещения.СкладЩитов</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="980ce2e5-986b-46f5-b82f-98303ef128f8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма (руб.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8f196e93-75aa-4726-9c75-f61ebeeea9a7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b07889ab-c53c-4309-8eeb-bdaf51fc2803">
+    <producedTypes>
+      <objectType typeId="a87fd46a-00ca-4411-845a-87420125fa7e" valueTypeId="05c93987-89cd-4ece-b5b7-36dd6f4e8894"/>
+      <rowType typeId="2a63ae8f-677d-43e3-b9b4-f1080b3208aa" valueTypeId="ba308401-0ee4-4f7a-9ade-4b0c1fcc7b4e"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ce7fb700-d550-4a8e-9f05-052290d9e3b6">
+      <name>Номенклатура_Щита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура щита</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДеревянныеЩиты_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c04ace89-9931-4981-a69e-9079a459c992">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ad3ee1b-8703-494b-902d-de112ef2a01a">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена (руб.)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a8c9687-9fe0-45d3-90c1-3c042bdae135">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма (руб.)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="3f2194eb-ec53-4359-aece-c0fccc544b24">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="29bed209-5741-49f1-8e58-02386db9ebfe">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ТорговляЩитами</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

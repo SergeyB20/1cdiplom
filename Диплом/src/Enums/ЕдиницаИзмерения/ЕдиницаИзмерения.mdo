@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e27d0f58-b292-4b73-aa14-7fb1bcb27353">
+  <producedTypes>
+    <refType typeId="1d8363ca-d96d-4b89-bcb0-53c10ed0d107" valueTypeId="e0e55949-5db4-442b-879b-a83e79446661"/>
+    <listType typeId="d308f6e8-b886-4ec1-966d-c536bb148d58" valueTypeId="3d496289-a056-4a51-b085-cb710e90b8ed"/>
+    <managerType typeId="76270daa-dc4c-4803-a96d-d8da23c2c68d" valueTypeId="19de4ecd-8bae-451c-b821-b0a8a187e30e"/>
+  </producedTypes>
+  <name>ЕдиницаИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43778342-3ce1-47f6-8f0f-f08c3b2d8d3d">
+    <name>Штука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штука</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b7ba369-7ca5-410b-b85a-2425773607ca">
+    <name>Киллограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Киллограммы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe8a4bc9-c1e7-4424-8a1c-f7f8f6c28761">
+    <name>Миллилитры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миллилитры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93ca90da-4d56-4ec3-924b-5d5c89982c27">
+    <name>Рулон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рулон (м2)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84ee8780-7a1c-4ca3-8a88-f536aa727e0a">
+    <name>Литры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Литры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6194a8fe-d3a6-491d-bba6-d59f5837b627">
+    <name>МетрыКубические</name>
+    <synonym>
+      <key>ru</key>
+      <value>м3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3963212-1ea4-4278-8675-159fc05e82f7">
+    <name>МетрыКвадратные</name>
+    <synonym>
+      <key>ru</key>
+      <value>м2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

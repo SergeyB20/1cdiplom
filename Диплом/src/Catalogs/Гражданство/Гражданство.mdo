@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e91dffe-346c-481a-acfb-9964b840b4ff">
+  <producedTypes>
+    <objectType typeId="f8cf7dc0-f20f-47c2-bf24-b89ef7480669" valueTypeId="b36bc6a6-bf9d-4ebb-bba3-fbd788c01078"/>
+    <refType typeId="ddfaae72-1d74-4564-a6db-35eb30602580" valueTypeId="300ba554-963b-4957-91f5-2dfd4cf49d73"/>
+    <selectionType typeId="b8c36c46-7847-4787-a3e2-fcdcc7ab1feb" valueTypeId="60a9d7a3-f5cf-4462-af49-718bb0771b2b"/>
+    <listType typeId="82e7c402-1f17-4523-82cd-a2ef4ccab524" valueTypeId="e841de66-924f-4fc0-b8df-85d7ceecf6df"/>
+    <managerType typeId="86b98b16-5c5f-45a0-a4f3-9c578323305f" valueTypeId="14868458-1f04-405c-8b59-0043adf11c68"/>
+  </producedTypes>
+  <name>Гражданство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гражданство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Гражданство.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Гражданство.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6d0640f0-f676-4c35-8813-51a50d80892e">
+      <name>Россия</name>
+      <description>Россия</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

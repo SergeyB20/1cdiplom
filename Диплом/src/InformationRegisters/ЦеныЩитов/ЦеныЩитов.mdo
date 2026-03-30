@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f949e4b-f749-4c98-b6bc-f1f77d3a002b">
+  <producedTypes>
+    <selectionType typeId="3a574bfd-9ce0-412c-a571-48ad91a8343a" valueTypeId="39767e07-1f97-450d-bc54-b99deb9b9ba5"/>
+    <listType typeId="218c8af3-245b-4403-aebf-dabcacae58ab" valueTypeId="1c437462-c4cb-4051-a726-b2a98cdea98e"/>
+    <managerType typeId="e7ea33e8-c21d-4664-91e5-533ef41390b8" valueTypeId="fd0d9d80-3b3a-4935-a546-03b4d364cc22"/>
+    <recordSetType typeId="954430bc-66c0-4d4f-94f1-bc8de5c77ca0" valueTypeId="63994c85-734c-4bce-8983-5b51b98d3e14"/>
+    <recordKeyType typeId="17eafc49-1877-4565-a175-2390ae457594" valueTypeId="f09fdd6e-e94d-4be9-a8ff-41a516991942"/>
+    <recordType typeId="a2438c61-fc5d-4d8f-8415-38cd4d3693ed" valueTypeId="63ab3513-37f1-4ba8-8924-9e9f665afa24"/>
+    <recordManagerType typeId="f2658771-1010-4f48-ae9e-4a8b3ddcaf0a" valueTypeId="adf8212e-5e56-4b97-b883-192c6319aefb"/>
+  </producedTypes>
+  <name>ЦеныЩитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены щитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цены щитов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Цены щитов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены щитов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Цены щитов</value>
+  </extendedListPresentation>
+  <resources uuid="7c7df06c-47b6-4db4-bab2-92ce9f930358">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9ff5d4f6-a3bb-45ad-861b-13ddd72dab55">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДеревянныеЩиты_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

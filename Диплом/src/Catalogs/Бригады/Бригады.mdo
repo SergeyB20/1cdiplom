@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb9e9d54-54f7-4f59-85bb-0999bf39f8ef">
+  <producedTypes>
+    <objectType typeId="aeb703c5-1288-409c-99cb-041ecc651ca3" valueTypeId="d037c76c-4cf1-4f98-93ef-3f966d3590dd"/>
+    <refType typeId="c1a3fa80-c2c5-4e09-bf97-2a5b8d7a3e55" valueTypeId="410375ad-b926-4abc-9f50-f1a19b4c4285"/>
+    <selectionType typeId="e13dc705-76c6-4909-a9d1-b5a892bd44e1" valueTypeId="b73cf246-d606-40dc-81c8-6e4617750d88"/>
+    <listType typeId="ff6bc1cb-2534-4a03-b31e-d0c1f5062730" valueTypeId="4dc5d1cd-72e1-4f93-a286-adb831fc1f97"/>
+    <managerType typeId="8b215b61-5421-4fd7-a795-e7ce39516405" valueTypeId="90a9762d-c2c9-485b-873e-6e923872bb88"/>
+  </producedTypes>
+  <name>Бригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Бригады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Бригады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бригада</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Бригады</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Бригады.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7461db64-3540-4cdf-92e8-41a6394f85fb">
+    <name>Бригадир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бригадир</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71cbd150-ece3-4c04-8f86-9ac19470c560">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="25c81474-0f26-4e55-9372-7076673970f8">
+    <producedTypes>
+      <objectType typeId="6a8d29ea-ebdc-49ba-9a79-e8a30a6dc536" valueTypeId="408f982b-11ff-46d6-b893-c61f6a8a8ae1"/>
+      <rowType typeId="94bb9a30-369f-4d19-853a-ccbf71aa5bbb" valueTypeId="95e4825b-2077-4a2d-a809-7df3ec5b93d0"/>
+    </producedTypes>
+    <name>ТабЧастьБригады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб часть бригады</value>
+    </synonym>
+    <attributes uuid="fd0e81d1-1e20-4707-8fbe-b686ef3eb1a5">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="88301dcd-c48e-4d74-b7ac-ae78518f04d4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5bba897-ebb9-4226-941d-7ff27806d43a">
+  <producedTypes>
+    <objectType typeId="7070eacb-d01f-4d67-8988-4d8d4e66cf4f" valueTypeId="9d10a81c-5ddc-4aad-bba4-b5585f33694b"/>
+    <refType typeId="00a6ae9e-332d-40af-ba9e-8201f48e9978" valueTypeId="76a21e85-fe0c-4b86-9d37-ac51b9e606b5"/>
+    <selectionType typeId="c3f32862-1ebd-4343-835d-054aa598410f" valueTypeId="beb1e008-64de-496e-8bec-381b670176b1"/>
+    <listType typeId="48b750d0-ca9f-4577-b236-4f200489ce1e" valueTypeId="680cee96-c752-4604-8638-4bba38067164"/>
+    <managerType typeId="e07355d4-a7ea-40d1-a392-224e72c5875b" valueTypeId="b0bb2625-14e7-4b4a-ad19-babe4b0dc8cd"/>
+  </producedTypes>
+  <name>ДолжностиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности сотрудников</value>
+  </synonym>
+  <comment>Должности сотрудников</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДолжностиСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДолжностиСотрудников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должности сотрудников</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должности сотрудников</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности сотрудников</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Должности сотрудников</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4aa76de9-523c-4265-877e-8ab07196d5d5">
+      <name>Бригадир</name>
+      <description>Бригадир</description>
+      <code xsi:type="core:StringValue">
+        <value>0005</value>
+      </code>
+    </items>
+    <items id="c051d582-1313-4441-a66e-d623397b982a">
+      <name>Бухгалтер</name>
+      <description>Бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value>0002</value>
+      </code>
+    </items>
+    <items id="061c06d5-87f9-422e-a4b5-1fb0f9db8c55">
+      <name>Директор</name>
+      <description>Директор</description>
+      <code xsi:type="core:StringValue">
+        <value>0001</value>
+      </code>
+    </items>
+    <items id="8fb7b361-e2f4-4b0b-929b-165c17ea7a94">
+      <name>Кладовщик</name>
+      <description>Кладовщик</description>
+      <code xsi:type="core:StringValue">
+        <value>0004</value>
+      </code>
+    </items>
+    <items id="b3c18fdc-b140-49b0-a852-60fde1521239">
+      <name>Столяр</name>
+      <description>Столяр</description>
+      <code xsi:type="core:StringValue">
+        <value>0003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

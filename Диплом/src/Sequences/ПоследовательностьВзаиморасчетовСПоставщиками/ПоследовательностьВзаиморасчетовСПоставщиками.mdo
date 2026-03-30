@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b08dda2-e8ad-4f46-8062-4e10d331499c">
+  <producedTypes>
+    <recordType typeId="43077f24-84ef-4a91-bfe8-3b1f79fdfce7" valueTypeId="6d8e36ce-8b0f-42f0-b1e6-f2e8f351d82c"/>
+    <managerType typeId="cf21c4bc-60f7-4e74-ad7b-e47abe5c388f" valueTypeId="c018573e-d493-4ed7-bef2-745c66b23f5b"/>
+    <recordSetType typeId="298b1dab-e0c6-4684-a296-356eb9bcc562" valueTypeId="ac05976c-0498-4383-bbdf-cbabc9e24e29"/>
+  </producedTypes>
+  <name>ПоследовательностьВзаиморасчетовСПоставщиками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последовательность взаиморасчетов с поставщиками</value>
+  </synonym>
+  <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
+  <documents>Document.ПоступлениеМатериалов</documents>
+  <documents>Document.ОплатаПОСТ</documents>
+  <registerRecords>AccumulationRegister.РегистрВзаиморасчетов</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

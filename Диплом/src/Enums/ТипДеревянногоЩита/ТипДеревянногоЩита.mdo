@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="684b0297-183b-4827-a3f1-b2a202708f57">
+  <producedTypes>
+    <refType typeId="852c95ca-9986-4c11-b825-cc88e51ad5e5" valueTypeId="83b3852f-f504-4999-8df3-6d01508936b2"/>
+    <listType typeId="5e44c69e-eb27-4a6e-a432-6a100b95dea4" valueTypeId="e77ef40b-669e-4cab-bbce-4bf9499d4151"/>
+    <managerType typeId="dba1b02d-9e21-458d-9173-06f83649f2d5" valueTypeId="66535ef0-1305-4916-b6d8-1ab7fb6a9fc8"/>
+  </producedTypes>
+  <name>ТипДеревянногоЩита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип деревянного щита</value>
+  </synonym>
+  <comment>Тип деревянного щита</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Тип деревянного щита</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Тип деревянного щита</value>
+  </extendedListPresentation>
+  <enumValues uuid="2a07b308-7063-46c4-847a-b86c7615ff5e">
+    <name>ЦельноламельныеСортЭкстра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные сорт Экстра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5a6b37c-1aa0-4c18-8021-f303652c2b71">
+    <name>ЦельноламельныеАВ_ПодТемнуюПокраску_</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные АВ (под темную покраску)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87097ad2-5f0a-4628-9628-2415b27fce2e">
+    <name>ЦельноламельныеАВПамель22_28мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные АВ (памель 22-28мм)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7947fa6-4fcc-4506-a92a-722458086b43">
+    <name>ЦельноламельныеСортВС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные сорт ВС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73e50612-6b01-4a1f-8b83-979e5f14a923">
+    <name>ЦельноламельныеСортАС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные сорт АС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7db66082-edd7-400f-93a8-5bddab8fa9a5">
+    <name>ЦельноламельныеСортСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цельноламельные сорт СС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48400aa4-539c-44b6-9243-1e7bad6369dd">
+    <name>СращенныйСортЭкстра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт Экстра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5c09017-8ec1-4550-ba1e-3120f268b95a">
+    <name>СращенныйСортЭкстраПамель2228мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт Экстра (памель 22-28мм)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b58829e0-1d4f-472c-bd27-07abc68b4eae">
+    <name>СращенныйСортАВПодТемнуюПокраску</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт АВ (под темную покраску)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3dd2cae-c9a7-47b7-af9d-33d63b8bb085">
+    <name>СращенныйСортЭкстратетива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт Экстра (тетива)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="042d98d1-f6b7-4732-9dd5-18766acc2093">
+    <name>СращенныйСортАС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт АС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5323160e-b65e-4ae8-8de1-6cabb90dcc12">
+    <name>СращенныйСортВС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт ВС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e482f2e0-26d6-42ad-9258-eb96cd520c13">
+    <name>СращенныйСортСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт СС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bed2bbc-bcb9-4da0-b2cf-8ce10963acaa">
+    <name>СращенныйЭкстраузкаяламель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный Экстра (узкая ламель)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75d490bb-b96f-406e-b8d4-b00beb707ccc">
+    <name>СращенныйСортЭкстраОткрытыйМиниШип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт Экстра (открытый мини-шип)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e39eeeaf-7bba-4eaf-8200-58a78238323e">
+    <name>СращенныйСортВСОткрытыйМиниШип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сращенный сорт ВС (открытый мини-шип)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

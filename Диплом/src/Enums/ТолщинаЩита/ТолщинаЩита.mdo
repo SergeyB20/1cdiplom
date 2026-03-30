@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b7ac571-5772-4b37-ac95-e8c5c8b4bbfd">
+  <producedTypes>
+    <refType typeId="d1dd44a9-ee72-4585-b603-9caa5fba390e" valueTypeId="a42f0966-c971-4aea-ba5e-2d4cff43bb8e"/>
+    <listType typeId="25765c7e-3317-416d-a2c6-b97ba18a0c91" valueTypeId="66316f1d-5a82-4b39-9748-208c3365fe14"/>
+    <managerType typeId="5f62a278-09e9-46f4-b00e-747f2ae0fbae" valueTypeId="214d5bcd-9b25-4eed-b0f1-00fc97a12fc4"/>
+  </producedTypes>
+  <name>ТолщинаЩита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Толщина щита</value>
+  </synonym>
+  <comment>Толщина щита в мм</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Толщина щита</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Толщина щита</value>
+  </extendedListPresentation>
+  <enumValues uuid="dd3d0f4c-2642-4b49-8ae6-ed441b34844a">
+    <name>Восемьнадцать</name>
+    <synonym>
+      <key>ru</key>
+      <value>18</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04797759-4462-4012-8dc9-c8c9bb132e71">
+    <name>ДвадцатьМиллиметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="677d6d27-8adb-4320-8983-f3b779a83dd6">
+    <name>ТридцатьВосемь</name>
+    <synonym>
+      <key>ru</key>
+      <value>38</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1682a1bd-b8e7-43d6-a791-1c5ee8e514ec">
+    <name>СорокМиллиметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>40</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f837737d-393f-4cf9-a2e0-a37d27e40267">
+    <name>Пятьдесят</name>
+    <synonym>
+      <key>ru</key>
+      <value>50</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

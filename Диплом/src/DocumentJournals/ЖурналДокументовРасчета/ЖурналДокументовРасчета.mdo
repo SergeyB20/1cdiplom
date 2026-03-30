@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96a384cf-df48-4870-b285-2311378a8d55">
+  <producedTypes>
+    <selectionType typeId="d54bbc79-271e-47ba-a622-2c50f619c55f" valueTypeId="145699a4-c254-4de8-b511-08e52f8ff3e8"/>
+    <listType typeId="e104b5b9-06e1-4646-857e-baa5fbe5073b" valueTypeId="619e83c2-0f14-4cee-b606-5d8a23be87bd"/>
+    <managerType typeId="f155aa91-13f8-4676-9abd-2c12fcab0242" valueTypeId="35d79240-9a91-4f1f-a5a6-66fccee52f59"/>
+  </producedTypes>
+  <name>ЖурналДокументовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документов расчета</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналДокументовРасчета.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОплатаПОСТ</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПОК</registeredDocuments>
+  <columns uuid="8c005088-165e-42a5-8346-a9a2bb6c1671">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ОплатаПОСТ.Attribute.Организация</references>
+    <references>Document.ОплатаПОК.Attribute.Организация</references>
+  </columns>
+  <columns uuid="31da2013-2bd9-42b3-a880-ad0ef14989bd">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ОплатаПОСТ.Attribute.Поставщик</references>
+    <references>Document.ОплатаПОК.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="cc6d9e41-ab2d-474b-ae44-89b72e0a7ee7">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ОплатаПОСТ.Attribute.Договор</references>
+    <references>Document.ОплатаПОК.Attribute.Договор</references>
+  </columns>
+  <forms uuid="a7348fc4-db86-4494-82f8-489372bbabaa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

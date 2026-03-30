@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9398df53-c52f-49ae-ac28-ddd676f421c0">
+  <producedTypes>
+    <selectionType typeId="b4d59f25-3e02-4452-8f09-97b6b78ce2e9" valueTypeId="3789082a-05a2-42d1-b65c-d1d1cac741e4"/>
+    <listType typeId="cda6539c-23b9-4a97-96b0-3209630fbfb3" valueTypeId="3e623a64-6171-4c62-8467-dcbaf040ab0a"/>
+    <managerType typeId="f82b17d0-68b8-43dc-acf7-594b511d0dbb" valueTypeId="d947d98a-8e1a-40f4-87bf-e14029a3812d"/>
+  </producedTypes>
+  <name>ЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеМатериалов</registeredDocuments>
+  <registeredDocuments>Document.ПеремещениеТоваровМатериалов</registeredDocuments>
+  <registeredDocuments>Document.ПереработкаСырья</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТовараИзПереработки</registeredDocuments>
+  <registeredDocuments>Document.ТорговляЩитами</registeredDocuments>
+  <registeredDocuments>Document.ДоговорыСКонтрагентами</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПОСТ</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПОК</registeredDocuments>
+  <forms uuid="71430589-8a59-4ad0-871b-a1bc4cd58544">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

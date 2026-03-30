@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36c48fb5-4d53-406b-a1cc-9fbec66e5dbb">
+  <producedTypes>
+    <refType typeId="ff1ac8df-dce4-4bd3-bfbf-ae598bcf4f77" valueTypeId="db357513-d506-4d65-b9f8-23b6425688a3"/>
+    <listType typeId="e8f2257d-58f4-455e-8d60-10690c945229" valueTypeId="a3b2bebc-3344-4ea1-9b8a-8816bf58c5be"/>
+    <managerType typeId="cb62e28e-6bfa-4aaf-ace2-e33b4fe09447" valueTypeId="e723444c-5b84-4bf6-84e5-5aca49a83d07"/>
+  </producedTypes>
+  <name>ДлинаЩита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длина щита</value>
+  </synonym>
+  <comment>Длина щита в мм</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Длина щита в мм</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Длина щита в мм</value>
+  </extendedListPresentation>
+  <enumValues uuid="4d07aca2-9d69-40f7-8e8d-0d2d93809b60">
+    <name>Восемьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>800</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f97bf86c-d9d1-4f20-9cc8-11775df31b36">
+    <name>Девятьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>900</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4319962e-f3ea-4bb6-bf2f-845c0d27142e">
+    <name>Тысяча</name>
+    <synonym>
+      <key>ru</key>
+      <value>1000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbac35d4-d574-44f7-8c80-ab986c2444e8">
+    <name>ТысячаСто</name>
+    <synonym>
+      <key>ru</key>
+      <value>1100</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fba79e7e-54e2-4282-ad1f-d66d5fcacf05">
+    <name>ТысячаДвести</name>
+    <synonym>
+      <key>ru</key>
+      <value>1200</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21592921-849d-4fec-8ccd-df8af225df15">
+    <name>ТысячаТриста</name>
+    <synonym>
+      <key>ru</key>
+      <value>1300</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b2d9b4c-870a-4ed5-abeb-3afcd4602828">
+    <name>ТысячаЧетыреста</name>
+    <synonym>
+      <key>ru</key>
+      <value>1400</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="373e6b65-6432-4bb0-bc42-cf262dad56ad">
+    <name>ТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>1500</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27ba7499-63c8-4e10-a75d-0451406dc508">
+    <name>ТШ</name>
+    <synonym>
+      <key>ru</key>
+      <value>1600</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7c125b7-f360-47d8-a5c2-4173b45616d0">
+    <name>ТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>1700</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="045e2308-91db-484f-b487-eb7c615f42f6">
+    <name>ТВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>1800</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63c7c5c8-503a-49fc-b894-79fa8b86fa5f">
+    <name>ТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>1900</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de8e5897-9eff-4f0b-abd0-d5406467ea7f">
+    <name>ДвеТысячи</name>
+    <synonym>
+      <key>ru</key>
+      <value>2000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fce2237a-97fc-4fb7-9419-4ec5453e5a1e">
+    <name>ДТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>2100</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08da705e-4c76-46a7-b448-d276f02b27ed">
+    <name>ДТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>2200</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d407a14-94b8-4e16-974a-9b652484eb23">
+    <name>ДТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>2300</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="749e8dc5-7b47-48ef-bb17-69abca9d945e">
+    <name>ДТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>2400</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd55c5a0-fb4d-422b-9a58-375943c919d8">
+    <name>ДТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>2500</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86a98ede-2a3d-4218-a201-00663e491a65">
+    <name>ДТШ</name>
+    <synonym>
+      <key>ru</key>
+      <value>2600</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a060a9d5-d33d-4d13-9bab-b5f8d5e55487">
+    <name>ДТСемьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>2700</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40b1e2a1-bdcb-4919-ab30-a489ee341b23">
+    <name>ДТВосьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>2800</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c15c63c-ab6d-4b0f-91aa-346186357cd6">
+    <name>ДТДевятьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>2900</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a1491bb-6b6b-4e4f-a6b6-0d8e90b1f4d1">
+    <name>ТриТысячи</name>
+    <synonym>
+      <key>ru</key>
+      <value>3000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5db81e9-e42d-401b-b07d-abbbc8d30a0c">
+    <name>ТТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>3100</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="940430ae-2a14-4820-9f30-f28d994d8e1a">
+    <name>ТТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>3200</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86aa2e03-f2a6-4fc2-b461-1981d73ca9df">
+    <name>ТТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>3300</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3e8d109-22e6-4ef4-bd95-5fcfe6e6e494">
+    <name>ТТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>3400</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1653e908-d1b3-4122-bd5e-3c15e702bd13">
+    <name>ТТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>3500</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efabd288-8fd0-4b0c-a6b3-24261798c6b2">
+    <name>ТТШ</name>
+    <synonym>
+      <key>ru</key>
+      <value>3600</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0134e09c-886b-4ecf-bb8f-9513ea24e8d5">
+    <name>ТТСемьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>3700</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d77d960b-9a2c-4ab9-b368-34844dcceabe">
+    <name>ТТВосемьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>3800</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5635f9f6-99f8-4142-bfc4-54c4286b0434">
+    <name>ТТДевятьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>3900</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74cd7c80-3784-4c51-aff0-449dab98ab18">
+    <name>ЧетыреТысячи</name>
+    <synonym>
+      <key>ru</key>
+      <value>4000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a350518-cf70-47c8-8c08-39fda6910589">
+    <name>ЧТДВести</name>
+    <synonym>
+      <key>ru</key>
+      <value>4200</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d56ffe0a-411a-4a9e-8be3-3cc7b6377d08">
+    <name>ЧТПЯтьсот</name>
+    <synonym>
+      <key>ru</key>
+      <value>4500</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

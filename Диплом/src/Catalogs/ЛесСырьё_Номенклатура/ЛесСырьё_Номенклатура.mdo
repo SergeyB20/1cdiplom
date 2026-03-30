@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ac5fa65-3f6d-4ace-a277-24fd41d7079e">
+  <producedTypes>
+    <objectType typeId="f8656833-648c-4a1c-8278-72d5256f9bdc" valueTypeId="c76789c6-823c-4ee5-a0f9-9a03060d2099"/>
+    <refType typeId="ea85a1ea-cd7b-43ef-8235-82afd597b09d" valueTypeId="0144a7f0-2fdc-4e61-92f6-1bae3f99e01e"/>
+    <selectionType typeId="f72faf04-e22e-485e-b40e-f6178605c415" valueTypeId="0c87c4ca-4de7-488a-ac00-dd773f03458c"/>
+    <listType typeId="584e9a51-0b7b-4e3e-be6c-80c131cc0fa1" valueTypeId="de799e4d-0557-47bf-ad9a-4a497e1a1d6c"/>
+    <managerType typeId="1c2f4c80-ebb8-4f31-9f5e-7c4bf492f8f2" valueTypeId="b1ad0e74-2c68-4c94-90ca-607d94451972"/>
+  </producedTypes>
+  <name>ЛесСырьё_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура сырьё лес</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛесСырьё_Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛесСырьё_Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура сырьё лес</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Номенклатура сырьё лес</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Номенклатура сырьё лес</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Номенклатура сырьё лес</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛесСырьё_Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛесСырьё_Номенклатура.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЛесСырьё_Номенклатура.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="920f852f-d626-4c4b-9f14-c05fda2f0320">
+    <name>Сорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сорт щита</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Сорт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c602bc08-53d2-4e0d-b404-8a7bf72d9259">
+    <name>Влажность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влажность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Допустимая влажность леса от 7% до 10%</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>7</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>10</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94fb542c-5d5b-4a13-b30a-dcf262ef77e2">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ЕдиницаИзмерения.EnumValue.МетрыКубические</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56cbcc51-5e30-4964-b28a-9069b448517a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="627e5cfd-c857-4c74-a2db-c5c65e932459">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a6a7510-9fd4-43e9-a4e8-072822aa125c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

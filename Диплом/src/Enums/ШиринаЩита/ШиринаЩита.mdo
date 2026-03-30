@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15b2ea16-19f0-4317-9cb5-5c8e5bb70393">
+  <producedTypes>
+    <refType typeId="2348446d-6dc8-474a-8448-dbf40487bd77" valueTypeId="7cfcfe30-170c-4b22-909d-1ccfc9ccec4c"/>
+    <listType typeId="67b9d1d9-783c-41f9-8161-cf3ac605bf4f" valueTypeId="1fe54ba4-8c4c-41cf-938e-ea3b579d9aec"/>
+    <managerType typeId="d5635a36-e1cb-42bf-a43d-b86c450c6b49" valueTypeId="c144bd6d-18ee-4c29-a769-bd7cd948b15e"/>
+  </producedTypes>
+  <name>ШиринаЩита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ширина щита</value>
+  </synonym>
+  <comment>Ширина щита в мм</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.ШиринаЩита.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.ШиринаЩита.Form.ФормаВыбора</defaultChoiceForm>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ширина щита в мм</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Ширина щита в мм</value>
+  </extendedListPresentation>
+  <enumValues uuid="d5f31ef2-8b88-4d7f-b615-c33d3c2a4331">
+    <name>ДВестиММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>200</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e9c9722-9ce0-479f-b9ce-4dac27bca806">
+    <name>ТРистаММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>300</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="530ccfc5-9507-4689-92eb-5c45f7ef702f">
+    <name>ТРистаПММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>350</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35251f66-1331-4f34-aa0f-7194b6e690f5">
+    <name>ЧЕтыристаММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>400</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da8baef9-836f-4490-8c9b-d137565aef9b">
+    <name>ЧЕтыристаПММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>450</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28a9a08f-f313-48d6-bcaa-208286e8c636">
+    <name>ПЯтьсотММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>500</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5cd00d3-4b9e-4945-8d0d-621389df0e9f">
+    <name>ПЯтьсотПММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>550</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfbb5c10-8d02-4ae3-ae31-febfa630215e">
+    <name>ШЕстьсотММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>600</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b71d802-79a5-4b10-a0e8-d624594aea9e">
+    <name>ВОсемьсотММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>800</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33c9b6ce-8e6b-45df-a355-74aa9156d819">
+    <name>ТЫсячаММ</name>
+    <synonym>
+      <key>ru</key>
+      <value>1000</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="96e3e0d6-4cf5-4c18-8ef2-1b84421452d7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59658e62-3e25-4c66-80cd-42e136b1c0e7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3906a8a-0c30-4f6f-a2a0-0a94f6a96db8">
+  <producedTypes>
+    <refType typeId="385c15ce-89ff-4694-a40d-7c980d1e0cd3" valueTypeId="39b15256-030d-4669-b167-8851bd35e269"/>
+    <listType typeId="ea7d4f62-ed0a-44cd-a376-a2d5c2ee6b8c" valueTypeId="65581012-e0a3-4c41-b608-ddf327febd40"/>
+    <managerType typeId="f33a67f4-29c7-4516-8c57-21059caadfbf" valueTypeId="c7766d14-a86f-446f-9fa4-118cc1715a72"/>
+  </producedTypes>
+  <name>Сорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сорт</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сорт дерева</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Сорт дерева</value>
+  </extendedListPresentation>
+  <enumValues uuid="ed9ec54d-83b9-4fcb-889a-112bab876f4e">
+    <name>ДубКавказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дуб кавказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5b5da90-ecfa-4cd9-a77e-79797bd422dc">
+    <name>ЯсеньКавказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ясень кавказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eb673d9-b169-4914-8b94-afffac1cee21">
+    <name>ДубДальневосточный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дуб дальневосточный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5462eb15-af45-4a07-a055-5e8c0b81b441">
+    <name>ЯсеньДальневосточный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ясень дальневосточный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f166382-cc1c-46dc-917e-66cdf518a911">
+    <name>ЛиственницаСибирь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лиственница сибирь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

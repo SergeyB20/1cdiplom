@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebdda08f-ad64-4f22-9ae7-0ff4b6163e41">
+  <producedTypes>
+    <selectionType typeId="3e196842-f584-4ee0-82d2-c415eafb44e9" valueTypeId="7f08e0a3-fd32-465f-87ad-afdb6e0948c9"/>
+    <listType typeId="a71bfafd-729d-418a-ab8d-4b6349811609" valueTypeId="199e4c90-18f3-4b8e-b97d-9b322d4f9a29"/>
+    <managerType typeId="deeff6cd-4688-42db-a076-f66f2e07ff04" valueTypeId="8f2c297a-79d5-4066-91eb-351c7e993892"/>
+    <recordSetType typeId="48207911-1ca4-453d-9f5f-afc8575391c6" valueTypeId="2a64f366-6fe9-462c-8a1a-1585550b3a90"/>
+    <recordKeyType typeId="ed8cf640-69a6-44f8-bb8a-324de2d2755c" valueTypeId="250f7a66-e653-4d12-88dd-c878130f6d87"/>
+    <recordType typeId="b4aa40b3-0cfe-40c5-a0b8-0fee49672669" valueTypeId="02ebcf67-c9e1-4d93-bc52-7ef8aba2a82a"/>
+  </producedTypes>
+  <name>ПереработкаЛесаВЩиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переработка леса в щиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ПереработкаЛесаВЩиты.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f7cb95bc-ce56-4c04-b447-7e1e926cc6cd">
+    <name>Количество_Леса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество леса в м3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="cc9f49bd-f3ad-4b10-9a74-5e1c367e230c">
+    <name>Количество_ПолученныхЩитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество полученных щитов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9f346879-319f-4f4c-9e04-0df766301684">
+    <name>Номенклатура_Леса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура материалов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РасходникиДляПроизводства_Номенклатура</types>
+      <types>CatalogRef.ЛесСырьё_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="72952afc-b0b5-4a5c-9d09-54f657b95d2c">
+    <name>Номенклатура_Щитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура щитов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДеревянныеЩиты_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="bf473034-e8a1-4393-a9ed-5d8fd02d382d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

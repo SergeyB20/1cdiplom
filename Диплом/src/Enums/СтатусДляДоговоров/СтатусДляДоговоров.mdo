@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ab79c5-8b36-421e-9818-347e6d91b9df">
+  <producedTypes>
+    <refType typeId="69775662-dff8-4ed4-bf6f-c96a2c11dc2a" valueTypeId="5a2b9fce-d127-4ccc-82c1-5d8f6a7976dd"/>
+    <listType typeId="4eb5db9c-8cdb-42c1-9040-0d56d01f6218" valueTypeId="44109bb8-4a4d-404a-bac6-e34ebafd1609"/>
+    <managerType typeId="0c78cc21-c841-460f-8730-0bf2a92fea7c" valueTypeId="e5da65d8-a4c0-4916-8dfe-8c820802a13b"/>
+  </producedTypes>
+  <name>СтатусДляДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус для договоров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad856df2-4acc-488c-8a4b-f12c94924b15">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24b34321-0225-4116-a7c9-3457193c421a">
+    <name>ВОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d3022c0-aa35-4ebd-bc45-90bbd346fa34">
+    <name>НеАктивен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

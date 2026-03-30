@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79c28ccc-0762-4812-8379-fc5ff7bb879e">
+  <producedTypes>
+    <objectType typeId="c2b9cb2b-d410-45f1-a36e-62aeb4bd9b7b" valueTypeId="664cc6e8-215f-4385-8022-cc44400a56dd"/>
+    <managerType typeId="473468f4-eb31-4e43-926a-e9a8aad4624b" valueTypeId="8d90eb8c-8ffd-4863-8c93-c38378b4bfee"/>
+  </producedTypes>
+  <name>ОтчетПоПроизводству</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по производству</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоПроизводству.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="49af8db0-c606-4466-ab19-b5ab6284fe86">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7c994edf-ec71-4453-b10f-590096981820">
+    <name>ОстаткиПоСкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки по складу</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222c7520-2727-43f0-b4e7-26a8d7ab20c5">
+  <name>ПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>По складам</value>
+  </synonym>
+  <location>Constant.УчетПоСкладам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Помещения</content>
+  <content>Document.ПоступлениеМатериалов.Attribute.Помещение</content>
+  <content>AccumulationRegister.ОстаткиМатериаловИТоваров.Dimension.Помещение</content>
+  <content>Document.ПеремещениеТоваровМатериалов</content>
+  <content>AccumulationRegister.ОстаткиМатериаловИТоваров</content>
+  <content>Document.ПереработкаСырья</content>
+  <content>Document.ПоступлениеТовараИзПереработки</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>AccumulationRegister.ПереработкаЛесаВЩиты</content>
+  <content>Document.ТорговляЩитами</content>
+  <content>Document.ПоступлениеМатериалов</content>
+</mdclass:FunctionalOption>
