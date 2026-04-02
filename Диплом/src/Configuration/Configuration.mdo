@@ -39,7 +39,6 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.8</compatibilityMode>
   <languages uuid="230f9e95-f4a6-45c7-a4ac-4b3fd3c8c9a5">
     <name>Русский</name>
@@ -107,6 +106,8 @@
   <reports>Report.ОтчетПоПеремещениямВПроизводство</reports>
   <reports>Report.ОтчетПоПеремещениямГотовойПродукции</reports>
   <reports>Report.ОтчетПоОтгрузкеГотовойПродукции</reports>
+  <dataProcessors>DataProcessor.ИмпортЦенНоменклатуры</dataProcessors>
+  <dataProcessors>DataProcessor.ЭкспортПоступленийВJSON</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныЩитов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериаловИТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПереработкаЛесаВЩиты</accumulationRegisters>

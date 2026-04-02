@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e706dc4f-e5d0-4535-b6aa-a6b90a1a54ed">
+  <producedTypes>
+    <objectType typeId="018ffb82-1cea-489b-a09c-87163c84135e" valueTypeId="8a134f0f-ab5f-45de-8cb4-0c7daac7dcb8"/>
+    <managerType typeId="d161f273-5822-41b7-a558-aab250fe2cd3" valueTypeId="1fde5258-a605-4b70-af4b-80628f5ec72e"/>
+  </producedTypes>
+  <name>ИмпортЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт цен номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИмпортЦенНоменклатуры.Form.Форма</defaultForm>
+  <forms uuid="2085d22a-f906-4f2f-9107-3fc4434f105c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт цен номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="78edccdc-7401-4534-bd39-d8eebc7d80df">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="2854b470-a2dc-4215-9b23-e2455e83ef6b">
+    <name>МакетНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет назначения</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

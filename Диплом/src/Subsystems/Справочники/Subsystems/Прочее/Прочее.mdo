@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Субконто</content>
+  <content>DataProcessor.ИмпортЦенНоменклатуры</content>
+  <content>DataProcessor.ЭкспортПоступленийВJSON</content>
   <parentSubsystem>Subsystem.Справочники</parentSubsystem>
 </mdclass:Subsystem>
